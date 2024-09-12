@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['notes']
+
+roboflow:
+  workspace: dark-eden-nuheg
+  project: frc-note-detection-juhlj
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dark-eden-nuheg/frc-note-detection-juhlj/dataset/8
